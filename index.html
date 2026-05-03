@@ -1,0 +1,739 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KoreanSpace — cozy korean cuisine in hyderabad</title>
+    <meta
+      name="description"
+      content="KoreanSpace is a cozy vintage Korean restaurant near Gachibowli, Hyderabad. Authentic flavours, warm vibes, and a lil corner of Seoul in the city."
+    />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='8' fill='%23f5ede0'/><text y='50%' x='50%' dominant-baseline='middle' text-anchor='middle' font-family='Brush Script MT,Segoe Script,cursive' font-size='30' fill='%23251810'>KS</text></svg>"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=DM+Serif+Display:ital@0;1&family=Reenie+Beanie&family=Caveat:wght@400;500;600;700&family=Nanum+Pen+Script&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <!-- ═══ NAVBAR ═══ -->
+    <nav class="navbar">
+      <div class="navbar-inner">
+        <a href="#" class="navbar-brand" data-page="home">
+          <span class="brand-k">K</span>
+          <span class="brand-s">Space</span>
+        </a>
+        <div class="nav-links">
+          <a href="#" data-page="home" class="active">home</a>
+          <a href="#" data-page="menu">menu</a>
+          <a href="#" data-page="contact">find us</a>
+        </div>
+        <button class="mobile-toggle" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+      <div class="mobile-menu">
+        <a href="#" data-page="home" class="active">home</a>
+        <a href="#" data-page="menu">menu</a>
+        <a href="#" data-page="contact">find us</a>
+      </div>
+    </nav>
+
+    <!-- ═══════════════════════════════════════════ -->
+    <!--                  HOME PAGE                  -->
+    <!-- ═══════════════════════════════════════════ -->
+    <div id="home" class="page">
+      <!-- Hero -->
+      <section class="hero">
+        <span class="doodle" style="top: 5rem; left: 8%">⭐</span>
+        <span class="doodle" style="top: 8rem; right: 12%">✦</span>
+        <span class="doodle" style="bottom: 8rem; left: 15%">♡</span>
+        <span class="doodle" style="top: 20%; right: 8%">🌶️</span>
+        <div class="hero-content">
+          <p class="hero-greeting font-korean">안녕하세요 ~</p>
+          <h1 class="hero-title">
+            <span>K</span><br />
+            <span
+              class="gold font-korean"
+              style="position: relative; display: inline-block"
+            >
+              Space
+              <svg
+                viewBox="0 0 200 12"
+                fill="none"
+                class="absolute -bottom-2 left-0 w-full text-warm-gold opacity-60"
+                xmlns="http://www.w3.org/2000/svg"
+                style="
+                  position: absolute;
+                  bottom: -8px;
+                  left: 0;
+                  width: 100%;
+                  color: var(--warm-gold);
+                  opacity: 0.6;
+                "
+              >
+                <path
+                  d="M2 8C30 2 60 10 90 6C120 2 150 10 198 4"
+                  stroke="currentColor"
+                  stroke-width="3"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </span>
+          </h1>
+          <p class="hero-subtitle">
+            a cozy lil corner of seoul, tucked away in surat.
+          </p>
+          <p
+            class="hero-subtitle"
+            style="opacity: 0.7; font-size: 1rem; max-width: 24rem"
+          >
+            real korean food, warm vibes, no pretence. just good stuff.
+          </p>
+          <div class="hero-ctas">
+            <a href="#" class="btn-primary" data-page="menu">see the menu</a>
+            <a href="#" class="btn-outline" data-page="contact">find us ↗</a>
+          </div>
+          <p class="hero-scroll">↓ scroll, there's more good stuff</p>
+        </div>
+      </section>
+
+      <!-- Marquee -->
+      <div class="marquee primary-strip">
+        <div class="marquee-track">
+          <span
+            >kspace ✦ surat ✦ real korean food ✦ since 2026 ⸱ kspace ✦ surat ✦
+            real korean food ✦ since 2026 ⸱ kspace ✦ surat ✦ real korean food ✦
+            since 2026 ⸱ kspace ✦ surat ✦ real korean food ✦ since 2026 ⸱
+          </span>
+          <span
+            >kspace ✦ surat ✦ real korean food ✦ since 2026 ⸱ kspace ✦ surat ✦
+            real korean food ✦ since 2026 ⸱ kspace ✦ surat ✦ real korean food ✦
+            since 2026 ⸱ kspace ✦ surat ✦ real korean food ✦ since 2026 ⸱
+          </span>
+        </div>
+      </div>
+
+      <!-- About snippet -->
+      <section class="section about-snippet">
+        <div class="section-inner">
+          <p class="section-heading">our story</p>
+          <h2 class="section-title">
+            we started with<br /><span
+              style="position: relative; display: inline-block"
+              >a craving<svg
+                viewBox="0 0 120 20"
+                fill="none"
+                style="
+                  position: absolute;
+                  bottom: -4px;
+                  left: 0;
+                  width: 100%;
+                  color: var(--primary);
+                  opacity: 0.4;
+                "
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M2 10C12 2 22 18 32 10C42 2 52 18 62 10C72 2 82 18 92 10C102 2 112 18 118 10"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                /></svg
+            ></span>
+          </h2>
+          <p>
+            surat got everything — locho, sev khamani, dosa, chai for days. but
+            authentic korean? not so much. so we built kspace — a place where u
+            can get a proper bibimbap without booking a flight to seoul. it's
+            cozy, it's real, and the food slaps.
+          </p>
+        </div>
+      </section>
+
+      <!-- Featured items -->
+      <section class="section section-bg featured-section">
+        <div class="section-wide">
+          <div class="text-center" style="margin-bottom: 4rem">
+            <p class="section-heading">fan favourites</p>
+            <h2 class="section-title">
+              the stuff people
+              <span style="position: relative; display: inline-block"
+                >come back<svg
+                  viewBox="0 0 200 12"
+                  fill="none"
+                  style="
+                    position: absolute;
+                    bottom: -4px;
+                    left: 0;
+                    width: 100%;
+                    color: var(--warm-gold);
+                    opacity: 0.5;
+                  "
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M2 8C30 2 60 10 90 6C120 2 150 10 198 4"
+                    stroke="currentColor"
+                    stroke-width="3"
+                    stroke-linecap="round"
+                  /></svg
+              ></span>
+              for
+            </h2>
+          </div>
+          <div class="featured-grid">
+            <!-- Card 1 -->
+            <div class="polaroid">
+              <div class="tape"></div>
+              <div class="polaroid-img">
+                <img
+                  src="https://images.unsplash.com/photo-1553163147-622ab57be1c7?w=600&q=80"
+                  alt="dolsot bibimbap"
+                />
+                <span class="polaroid-tag">🔥</span>
+                <div class="polaroid-price">₹420</div>
+              </div>
+              <div class="polaroid-info">
+                <h3>dolsot bibimbap</h3>
+                <p>
+                  sizzling stone pot, crispy rice at the bottom, all the good
+                  stuff on top. mix it up n enjoy.
+                </p>
+                <span class="polaroid-note">our bestseller ♡</span>
+              </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="polaroid">
+              <div
+                class="tape"
+                style="transform: translateX(-50%) rotate(3deg)"
+              ></div>
+              <div class="polaroid-img">
+                <img
+                  src="https://images.unsplash.com/photo-1635363638580-c2809d049eee?w=600&q=80"
+                  alt="tteokbokki"
+                />
+                <span class="polaroid-tag">🌶️</span>
+                <div class="polaroid-price">₹280</div>
+              </div>
+              <div class="polaroid-info">
+                <h3>tteokbokki</h3>
+                <p>
+                  chewy rice cakes in our spicy-sweet gochujang sauce. comfort
+                  in a bowl, honestly.
+                </p>
+                <span class="polaroid-note">street food classic</span>
+              </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="polaroid">
+              <div
+                class="tape"
+                style="transform: translateX(-50%) rotate(-4deg)"
+              ></div>
+              <div class="polaroid-img">
+                <img
+                  src="https://images.unsplash.com/photo-1677029969065-c9f4003a9ad5?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D?w=600&q=80"
+                  alt="bulgogi"
+                />
+                <span class="polaroid-tag">⭐</span>
+                <div class="polaroid-price">₹520</div>
+              </div>
+              <div class="polaroid-info">
+                <h3>bulgogi</h3>
+                <p>
+                  thin-sliced marinated beef, caramelized to perfection. been
+                  our #1 since day one.
+                </p>
+                <span class="polaroid-note">worth every ₹</span>
+              </div>
+            </div>
+            <!-- Card 4 -->
+            <div class="polaroid">
+              <div
+                class="tape"
+                style="transform: translateX(-50%) rotate(2deg)"
+              ></div>
+              <div class="polaroid-img">
+                <img
+                  src="https://plus.unsplash.com/premium_photo-1700161711744-4dfa24053e95?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D?w=600&q=80"
+                  alt="kimchi jjigae"
+                />
+                <span class="polaroid-tag">❤️‍🔥</span>
+                <div class="polaroid-price">₹350</div>
+              </div>
+              <div class="polaroid-info">
+                <h3>kimchi jjigae</h3>
+                <p>
+                  bubbling hot kimchi stew. the kinda warm that fixes everything
+                  on a bad day.
+                </p>
+                <span class="polaroid-note">soul food fr</span>
+              </div>
+            </div>
+          </div>
+          <div class="text-center mt-6" style="margin-top: 4rem">
+            <a href="#" class="btn-primary" data-page="menu"
+              >see the full menu →</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <!-- Hours -->
+      <section class="section hours-section text-center">
+        <div class="section-inner">
+          <p class="section-heading">we're open</p>
+          <h2 class="section-title">
+            come
+            <span style="position: relative; display: inline-block"
+              >say hi<svg
+                viewBox="0 0 120 20"
+                fill="none"
+                style="
+                  position: absolute;
+                  bottom: -4px;
+                  left: 0;
+                  width: 100%;
+                  color: var(--primary);
+                  opacity: 0.3;
+                "
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M2 10C12 2 22 18 32 10C42 2 52 18 62 10C72 2 82 18 92 10C102 2 112 18 118 10"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                /></svg
+            ></span>
+          </h2>
+          <div class="hours-card">
+            <div class="tape"></div>
+            <div class="hours-row">
+              <span class="day">mon – fri</span>
+              <span class="time font-handwritten">11am – 10pm</span>
+            </div>
+            <hr class="hours-divider" />
+            <div class="hours-row">
+              <span class="day">sat</span>
+              <span class="time font-handwritten">10am – 11pm</span>
+            </div>
+            <p
+              class="font-handwritten text-muted mt-4"
+              style="opacity: 0.5; font-size: 1.125rem; transform: rotate(1deg)"
+            >
+              * we close early on rain days sometimes
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Marquee 2 -->
+      <div class="marquee dark-strip">
+        <div class="marquee-track">
+          <span
+            >bibimbap ✦ tteokbokki ✦ bulgogi ✦ kimchi jjigae ✦ japchae ✦ ramyeon
+            ⸱ bibimbap ✦ tteokbokki ✦ bulgogi ✦ kimchi jjigae ✦ japchae ✦
+            ramyeon ⸱
+          </span>
+          <span
+            >bibimbap ✦ tteokbokki ✦ bulgogi ✦ kimchi jjigae ✦ japchae ✦ ramyeon
+            ⸱ bibimbap ✦ tteokbokki ✦ bulgogi ✦ kimchi jjigae ✦ japchae ✦
+            ramyeon ⸱
+          </span>
+        </div>
+      </div>
+
+      <!-- Find Us -->
+      <section class="section find-section">
+        <div class="section-wide" style="max-width: 64rem">
+          <div class="find-grid">
+            <div>
+              <p class="section-heading">find us</p>
+              <h2 class="section-title">we're easy to spot</h2>
+              <div class="find-info-item">
+                <span class="icon">📍</span>
+                <div class="text"><strong>surat</strong></div>
+              </div>
+              <div class="find-info-item">
+                <span class="icon">📞</span>
+                <div class="text">90xx xxx xxx</div>
+              </div>
+              <div class="find-info-item">
+                <span class="icon">✉️</span>
+                <div class="text">hello@kspace.in</div>
+              </div>
+              <div class="find-info-item">
+                <span class="icon">📸</span>
+                <div class="text">@kspace.surat</div>
+              </div>
+            </div>
+            <div>
+              <div class="map-placeholder relative">
+                <div
+                  class="tape"
+                  style="left: 3rem; transform: rotate(-4deg)"
+                ></div>
+                <div
+                  class="tape"
+                  style="left: auto; right: 3rem; transform: rotate(4deg)"
+                ></div>
+                <p>[ map goes here ]</p>
+              </div>
+              <p
+                class="font-handwritten text-warm-gold mt-2"
+                style="
+                  text-align: right;
+                  opacity: 0.5;
+                  font-size: 1.25rem;
+                  transform: rotate(1deg);
+                "
+              >
+                ← look for the red door & fairy lights
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- ═══════════════════════════════════════════ -->
+    <!--                  MENU PAGE                  -->
+    <!-- ═══════════════════════════════════════════ -->
+    <div id="menu" class="page" style="display: none">
+      <section class="section" style="padding-top: 6rem">
+        <div class="section-inner" style="max-width: 48rem">
+          <div class="menu-header">
+            <p class="section-heading font-korean">맛있게 드세요</p>
+            <h2 class="section-title">
+              the
+              <span style="position: relative; display: inline-block"
+                >menu<svg
+                  viewBox="0 0 200 12"
+                  fill="none"
+                  style="
+                    position: absolute;
+                    bottom: -4px;
+                    left: 0;
+                    width: 100%;
+                    color: var(--warm-gold);
+                    opacity: 0.5;
+                  "
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M2 8C30 2 60 10 90 6C120 2 150 10 198 4"
+                    stroke="currentColor"
+                    stroke-width="3"
+                    stroke-linecap="round"
+                  /></svg
+              ></span>
+            </h2>
+            <p class="text-muted">
+              everything's made fresh. we don't cut corners — except maybe the
+              kimbap.
+            </p>
+          </div>
+          <div id="menu-tabs" class="menu-tabs"></div>
+          <div id="menu-items"></div>
+          <div class="menu-note">
+            <p
+              class="font-handwritten text-warm-gold"
+              style="
+                font-size: 1.5rem;
+                margin-bottom: 0.5rem;
+                transform: rotate(-1deg);
+              "
+            >
+              psst —
+            </p>
+            <p class="text-muted" style="font-size: 0.875rem; line-height: 1.6">
+              we're happy to adjust spice levels & accommodate dietary needs.
+              just ask us when u order ✌️
+            </p>
+            <div
+              style="
+                display: flex;
+                gap: 1rem;
+                margin-top: 1rem;
+                font-size: 0.75rem;
+                color: var(--muted-fg);
+              "
+            >
+              <span style="display: flex; align-items: center; gap: 0.375rem">
+                <span
+                  style="
+                    width: 10px;
+                    height: 10px;
+                    border-radius: 50%;
+                    background: var(--warm-sage);
+                  "
+                ></span>
+                V = vegetarian
+              </span>
+              <span style="display: flex; align-items: center; gap: 0.375rem">
+                <span
+                  style="
+                    width: 10px;
+                    height: 10px;
+                    border-radius: 50%;
+                    background: var(--secondary);
+                  "
+                ></span>
+                GF = gluten-free
+              </span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- ═══════════════════════════════════════════ -->
+    <!--               CONTACT PAGE                  -->
+    <!-- ═══════════════════════════════════════════ -->
+    <div id="contact" class="page" style="display: none">
+      <section class="section contact-content" style="padding-top: 6rem">
+        <div class="section-wide" style="max-width: 64rem">
+          <div style="margin-bottom: 4rem">
+            <p
+              class="font-korean text-warm-gold"
+              style="
+                font-size: 2.25rem;
+                transform: rotate(-1deg);
+                margin-bottom: 0.5rem;
+              "
+            >
+              오세요
+            </p>
+            <h1 class="section-title">
+              <span style="position: relative; display: inline-block"
+                >find us<svg
+                  viewBox="0 0 200 12"
+                  fill="none"
+                  style="
+                    position: absolute;
+                    bottom: -4px;
+                    left: 0;
+                    width: 100%;
+                    color: var(--warm-gold);
+                    opacity: 0.5;
+                  "
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M2 8C30 2 60 10 90 6C120 2 150 10 198 4"
+                    stroke="currentColor"
+                    stroke-width="3"
+                    stroke-linecap="round"
+                  /></svg
+              ></span>
+            </h1>
+            <p class="text-muted" style="font-size: 1.125rem">
+              we're always happy to see a friendly face.
+            </p>
+          </div>
+          <div class="contact-grid">
+            <!-- Info -->
+            <div>
+              <div style="margin-bottom: 2.5rem">
+                <h2
+                  class="font-display"
+                  style="font-size: 1.25rem; margin-bottom: 1rem"
+                >
+                  where we are
+                </h2>
+                <div
+                  style="
+                    border-left: 2px dashed hsla(35, 75%, 52%, 0.3);
+                    padding-left: 1.25rem;
+                    color: var(--muted-fg);
+                    font-size: 0.875rem;
+                    line-height: 1.8;
+                  "
+                >
+                  <p>surat</p>
+                </div>
+                <p
+                  class="font-handwritten text-warm-gold"
+                  style="
+                    opacity: 0.4;
+                    font-size: 1.125rem;
+                    padding-left: 1.25rem;
+                    margin-top: 0.5rem;
+                    transform: rotate(1deg);
+                  "
+                >
+                  look for the red door ♡
+                </p>
+              </div>
+              <div style="margin-bottom: 2.5rem">
+                <h2
+                  class="font-display"
+                  style="font-size: 1.25rem; margin-bottom: 1rem"
+                >
+                  get in touch
+                </h2>
+                <div
+                  style="
+                    color: var(--muted-fg);
+                    font-size: 0.875rem;
+                    line-height: 2.2;
+                  "
+                >
+                  <p>📞 90xx xxx xxx</p>
+                  <p>✉️ hello@kspace.in</p>
+                  <p>📸 @kspace.surat</p>
+                </div>
+              </div>
+              <div style="margin-bottom: 2.5rem">
+                <h2
+                  class="font-display"
+                  style="font-size: 1.25rem; margin-bottom: 1rem"
+                >
+                  hours
+                </h2>
+                <div
+                  class="hours-card"
+                  style="display: block; width: 100%; max-width: 20rem"
+                >
+                  <div
+                    class="tape"
+                    style="transform: translateX(-50%) rotate(-2deg)"
+                  ></div>
+                  <div class="hours-row">
+                    <span class="day">monday – friday</span>
+                    <span class="time font-handwritten">11am – 10pm</span>
+                  </div>
+                  <hr class="hours-divider" />
+                  <div class="hours-row">
+                    <span class="day">saturday – sunday</span>
+                    <span class="time font-handwritten">10am – 11pm</span>
+                  </div>
+                </div>
+              </div>
+              <div class="map-placeholder relative">
+                <div
+                  class="tape"
+                  style="left: 2.5rem; transform: rotate(-4deg)"
+                ></div>
+                <div
+                  class="tape"
+                  style="left: auto; right: 2.5rem; transform: rotate(3deg)"
+                ></div>
+                <p>[ map goes here ]</p>
+              </div>
+            </div>
+            <!-- Form -->
+            <div>
+              <p
+                class="font-handwritten text-warm-gold"
+                style="
+                  font-size: 1.75rem;
+                  margin-bottom: 0.25rem;
+                  transform: rotate(-1deg);
+                "
+              >
+                got something in mind?
+              </p>
+              <p
+                class="text-muted"
+                style="font-size: 0.875rem; margin-bottom: 2rem"
+              >
+                catering, events, large orders, or just wanna say hi — drop us a
+                line.
+              </p>
+              <form id="contact-form">
+                <div class="form-group">
+                  <label for="name">your name</label>
+                  <input
+                    type="text"
+                    id="name"
+                    class="form-input"
+                    placeholder="what should we call u?"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="email">email</label>
+                  <input
+                    type="email"
+                    id="email"
+                    class="form-input"
+                    placeholder="so we can get back to u"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="message">message</label>
+                  <textarea
+                    id="message"
+                    class="form-textarea"
+                    rows="5"
+                    placeholder="tell us what's up"
+                    required
+                  ></textarea>
+                </div>
+                <button type="submit" class="btn-primary btn-full">
+                  send it →
+                </button>
+              </form>
+              <p
+                class="font-handwritten text-muted text-center mt-6"
+                style="
+                  opacity: 0.4;
+                  font-size: 1.125rem;
+                  transform: rotate(1deg);
+                "
+              >
+                we usually reply within a day or two ✌️
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- ═══ FOOTER ═══ -->
+    <footer class="footer">
+      <div class="footer-grid">
+        <div>
+          <h3>KSpace</h3>
+          <p>
+            a cozy lil corner of seoul, right here in surat. come for the food,
+            stay for the vibes.
+          </p>
+        </div>
+        <div>
+          <h4>quick links</h4>
+          <a href="#" data-page="home" style="display: block">home</a>
+          <a href="#" data-page="menu" style="display: block">menu</a>
+          <a href="#" data-page="contact" style="display: block">find us</a>
+        </div>
+        <div>
+          <h4>hours</h4>
+          <p>mon – fri: 11am – 10pm</p>
+          <p>sat – sun: 10am – 11pm</p>
+          <p style="margin-top: 1.25rem">surat</p>
+          <p>90xx xxx xxx</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>made with ♡ in surat</p>
+      </div>
+    </footer>
+
+    <!-- GSAP CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
